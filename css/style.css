@@ -41,3 +41,8 @@ h1 {
 .recipe-item {
   text-align: center;
 }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}

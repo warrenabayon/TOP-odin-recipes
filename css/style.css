@@ -1,0 +1,43 @@
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#recipes {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin: 0;
+}
+
+#recipes a {
+  text-decoration: none;
+ 
+}
+
+#recipes a:hover img {
+  margin-top: -10px;
+  position: relative;
+}
+
+#recipes a:hover h3 {
+  background-color: #80808090;
+}
+
+.recipe-item img {
+  max-width: 400px;
+  display: block;
+  transition: 0.4s all ease;
+}
+
+.recipe-item h3 {
+  background: #80808050;
+  padding: 15px;
+  margin: 0;
+  transition: 0.4s all ease;
+}
+
+.recipe-item {
+  text-align: center;
+}
